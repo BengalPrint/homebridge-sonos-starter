@@ -79,7 +79,7 @@ SonosAccessory.prototype.setOn = function(on, callback) {
 	  		});
 
 	} else {
-		httpRequest(this.apiBaseUrl + "/pauseAll")
+		httpRequest(this.apiBaseUrl + "/pause")
 	  		.then((data) => {
 	  			this.log("paused all");
 				callback(null);
