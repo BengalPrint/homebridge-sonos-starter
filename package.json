@@ -1,6 +1,6 @@
 {
   "name": "homebridge-sonos-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sonos plugin for homebridge: https://github.com/nfarina/homebridge that starts presets via https://github.com/jishi/node-sonos-http-api",
   "license": "ISC",
   "keywords": [
